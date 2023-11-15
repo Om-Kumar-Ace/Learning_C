@@ -11,5 +11,5 @@ int main()
 
    printf("The sum of a and b is %d", a+b);
 
-    return 0;
+   return 0;
 }
