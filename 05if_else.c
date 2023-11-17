@@ -3,7 +3,7 @@
 int main(){
     int a;
     int vip=0;
-    vip=1;
+    //vip=1;
     printf("Enter age -\n");
     scanf("%d", &a );
 
