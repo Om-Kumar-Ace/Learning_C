@@ -1,9 +1,9 @@
 #include<stdio.h>
 
 int main(){
-    float tax = 0,i;
+    float tax = 0.0,i;
     printf("Enter your income- \n");
-    scanf("%f",i);
+    scanf("%f",&i);
 
     if (i >= 250000 && i <= 500000)
     {
