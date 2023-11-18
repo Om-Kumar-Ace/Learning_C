@@ -17,7 +17,7 @@ int main(){
 
     if (i >= 1000000)
     {
-        tax = tax + 0.30 * ( i - 10000000);
+        tax = tax + 0.30 * ( i - 1000000);
     }
 
     printf("Your income tax to be paid is %f\n ",tax);
