@@ -2,7 +2,7 @@
 
 int main(){
     int n= 45 , prime =0 ;
-    for ( i = 2; i < 45; i++)
+    for ( int i = 2; i < 45; i++)
     {
         if (n%i==0)
         {
@@ -12,7 +12,7 @@ int main(){
         }
         
     }
-    if (prime == 0 && n !=2 )
+    if (prime == 1 && n !=2 )
     {
         printf(" This is not a prime no .\n");
     }
