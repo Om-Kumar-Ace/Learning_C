@@ -1,11 +1,14 @@
 #include<stdio.h>
 
 int main(){
-    int i =0 , n=3, f =1;
-    for ( i = 0; n=3; f=1)
+    int i, n = 3, f = 1;
+
+    
+    for (i = 1; i <= n; ++i)
     {
-        f+=1;
+        f *= i;  
     }
-    printf("The value of factorial %d is %d",n,f);
+
+    printf("The value of factorial %d is %d", n, f);
     return 0;
 }
