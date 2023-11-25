@@ -5,7 +5,7 @@ int main(){
     int n;
     printf("Enter Value Of n \n");
     scanf("%d",&n);
-    printf("\n\n")
+    printf("\n\n");
     pp(n);
 
 
