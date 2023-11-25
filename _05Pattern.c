@@ -5,6 +5,7 @@ int main(){
     int n;
     printf("Enter Value Of n \n");
     scanf("%d",&n);
+    printf("\n\n")
     pp(n);
 
 
@@ -13,7 +14,7 @@ int main(){
 void pp(int n){
     if (n==1)
     {
-        printf("\n\n*\n");
+        printf("*\n");
         return;
     }
     
