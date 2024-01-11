@@ -11,7 +11,6 @@ int main(){
     f= fopen("Note.txt","w");
     fprintf(f,"%d \n",r);
     fprintf(f,"%s \n",c);
-    
     fclose(f);
     return 0;
 }
